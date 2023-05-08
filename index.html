@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert from decimal to octal</title>
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Переклад із десяткової системи числення у восьмеричну</h1>
+        <div class="content">
+            <form action="" class="calc-form calculated">
+                <div class="calc-frow">
+                    <div class="calc-fleft" style="padding-top: 10px">Початкове число</div>
+                    <div class="calc-fright">
+                        <div class="calc-input" style="width: 200px">
+                            <input name="number" type="text" class="w-100 calc-inp autofocus error" >
+                        </div>
+                    </div>
+                </div>
+                <div class="calc-frow">
+                    <div class="calc-fleft">Напрямок перекладу</div>
+                    <div class="calc-fright">
+                        <div class="d-flex align-items-center">
+                            <select name="from" id="" class="calc-inp flex-grow-1" style="height: 40px; max-width: 200px;">
+                                <option value="10">10(десяткова)</option>
+                                <option value="8">8(вісімкова)</option>
+                            </select>
+                            <a href="" title="Поменять местами" class="js-swap mx-3">
+                                <img class="icon" src="https://www.kindpng.com/picc/m/11-116332_arrows-directions-left-right-transparent-arrows-left-and.png" alt="Arrows Directions Left Right - Transparent Arrows Left And Right, HD">
+                            </a>
+                            <select name="to" id="" class="calc-inp flex-grow-1" style="height: 40px; max-width: 200px;">
+                                <option value="8">8(вісімкова)</option>
+                                <option value="10">10(десяткова)</option>
+                            </select>
+                        </div> 
+                    </div>
+                </div>
+                <div class="calc-frow button-row">
+                    <div class="calc-fright">
+                        <input type="text" class="calc-submit" value="Конвертировать" readonly>
+                        <div class="flex-grow-1 d-md-none"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>  
